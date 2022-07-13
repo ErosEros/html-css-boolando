@@ -1,5 +1,44 @@
+/* GENERICS */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+
+/* flex-box */
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+    display: flex;
+}
+
+/* header */
+header {
+    width: auto;
+    background-color: #ff6900;
+    color: white;
+}
+
+a  {
+    text-decoration: none;
+    color: white;
+}
+
+/* section */
+section {
+    background-color: blue;
+    width: auto;
+    height: 600px;
+    
+}
+
+footer {
+    width: auto;background-color: black;
+    color: white;
+
 }
