@@ -114,7 +114,19 @@ span {
     position: relative;
     bottom: 148px;
     
+}
 
+.image-2 {
+    opacity: 0;
+    position: absolute;
+    width: 379.73px;
+    bottom: 92.5px;
+
+}
+
+.image-2:hover {
+    opacity: 1;
+    display: inline-block ;
 }
 
 /* footer */
@@ -127,13 +139,13 @@ footer {
 
 .foot-container {
     justify-content: space-between;
-    padding: 10px;
+    padding: 15px;
     margin: 0px 120px;
 }
 
 .foot-container > div h2 {
     font-size: 14px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 
 .foot-container > div a {
@@ -141,3 +153,9 @@ footer {
     text-decoration: none;
     color: white;
 }
+
+.info {
+    justify-content: space-between;
+    width: 300px;
+}
+
