@@ -3,8 +3,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    border: 2px solid yellow;
 }
 
+body {
+    font-family: sans-serif;
+
+}
 
 /* flex-box */
 
@@ -22,6 +27,12 @@ header {
     width: auto;
     background-color: #ff6900;
     color: white;
+    padding: 10px;
+}
+
+.container > div {
+    width: calc(100% / 3 );
+    text-align: center;
 }
 
 a  {
@@ -29,16 +40,34 @@ a  {
     color: white;
 }
 
-/* section */
+.container {
+    justify-content: space-evenly;
+}
+
+/* main */
 section {
     background-color: blue;
-    width: auto;
     height: 600px;
+    flex-wrap: wrap;
     
 }
 
+.card {
+    width: calc(100% / 3 - 40px);
+    padding: 10px;
+    margin: 20px 20px;
+}
+
+
+
+/* footer */
 footer {
     width: auto;background-color: black;
     color: white;
 
+}
+
+.foot-container {
+    justify-content: space-between;
+    
 }
