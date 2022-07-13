@@ -167,3 +167,6 @@ footer {
     width: 300px;
 }
 
+.social {
+    justify-content: space-between;
+}
