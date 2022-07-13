@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
 }
 
 body {
@@ -31,18 +31,20 @@ header {
     padding: 10px;
 }
 
-.container > div {
-    width: calc(100% / 3 );
-    text-align: center;
-}
-
-a  {
+.container > div a  {
     text-decoration: none;
     color: white;
+    font-size: 14px;
 }
 
 .container {
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin: 0px 120px;
+    align-items: center;
+}
+
+.logo {
+    width: 120px;
 }
 
 .red {
@@ -51,9 +53,9 @@ a  {
 
 /* main */
 section {
-    background-color: blue;
     height: auto;
     flex-wrap: wrap;
+    margin: 20px 100px;
     
 }
 
@@ -68,14 +70,39 @@ img {
    width: 100% ; 
 }
 
+h1 {
+    font-size: 15px;
+}
+
+.card > p {
+    font-size: 13px;
+}
+
+span {
+    font-size: 13px;
+}
+
 /* footer */
 footer {
     width: auto;background-color: black;
     color: white;
+    
 
 }
 
 .foot-container {
     justify-content: space-between;
-    
+    padding: 10px;
+    margin: 0px 120px;
+}
+
+.foot-container > div h2 {
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+.foot-container > div a {
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
 }
