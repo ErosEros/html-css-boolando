@@ -51,6 +51,12 @@ header {
     color: red;
 }
 
+.icon-top {
+    font-size: 12px;
+    width: 50px;
+    justify-content: space-between;
+}
+
 /* main */
 section {
     height: auto;
@@ -87,17 +93,17 @@ span {
     background-color: white;
     width: 40px;
     height: auto;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    bottom: 587px;
+    position: absolute;
+    bottom: 550px;
     text-align: center;
     left: 340px;
     font-size: 40px;
-    
 }
 
-
+.heart-red::before :hover{
+    color: #ff6900;
+    
+}
 .price {
     background-color: red;
     padding: 5px 10px;
@@ -121,10 +127,6 @@ span {
 }
 
 .image-2 {
-    /* opacity: 0;
-    position: absolute;
-    width: 379.73px;
-    bottom: 92.4px; */
     position: absolute;
     top: 0;
     left: 0;
@@ -135,6 +137,10 @@ span {
 .image-2:hover {
     opacity: 1;
     display: inline-block ;
+}
+
+.relative {
+    position: relative;
 }
 
 /* footer */
